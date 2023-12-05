@@ -1,0 +1,37 @@
+.board-container{
+  margin: 20px;
+}
+
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.square{
+  border: 1px solid dodgerblue;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Reset-btn{
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+
+}
+
+.player-turn{
+  text-align: center;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  font-size: 30px;
+  font-weight: 600;
+}
